@@ -57,7 +57,7 @@ python -m pip install -r requirements.txt
 ```sh
 python main.py
 ```
-## Upcoming features?
+## Upcoming Features
 
 - **Proxy Speed Testing**: To test each generated proxy after validation to further thin out the most reliable generated proxies. 
 
