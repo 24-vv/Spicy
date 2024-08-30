@@ -24,6 +24,8 @@ Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](ht
 
 ## Installation 
 
+**Note**: You can either follow the installation process below or head to the [release](https://github.com/24-vv/Spicy/releases) page and download the latest zip.
+
 1. **Clone the repo**
 
 ```sh
