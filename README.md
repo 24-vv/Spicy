@@ -26,7 +26,7 @@ Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](ht
 
 
 <p align="center">
-  <img src="spicy-screenshot.PNG" alt="Logo">
+  <img src="images/spicy-screenshot.PNG" alt="Logo">
 </p>
 </p>
 
