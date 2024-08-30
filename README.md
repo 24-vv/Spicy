@@ -57,3 +57,14 @@ python -m pip install -r requirements.txt
 ```sh
 python main.py
 ```
+## Upcoming features?
+
+- **Proxy Speed Testing**: To test each generated proxy after validation to further thin out the most reliable generated proxies. 
+
+- **Proxy Anonymity Levels**: Gives users further customization over their generated proxies.
+
+- **Proxy Type Support**: Eventually I am planning on adding support for SOCKS5 and HTTPS. 
+
+- **Scheduled Tasks**: Allows users to re-validate their proxies over a set interval or replace existing proxies.
+
+- **GUI Version**: Might add a GUI version of the tool for people who prefer a vi over a cli.
