@@ -14,7 +14,7 @@ Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](ht
 
 - **User Friendly Interface**: An easy to user interface that is straightforward and self explanatory.
 
-- **Tool Theme Changing**: Added simple visual enhancements, one of them allows users to change the color of the tool within the settings command.
+- **Theme Changing**: Added simple visual enhancements, one of them allows users to change the color of the tool within the settings command.
 
 - **Saves**: Added saves, this feature will save your settings to your ``settings.json`` file everytime the user returns back to the main menu.
 
@@ -60,6 +60,7 @@ python -m pip install -r requirements.txt
 ```sh
 python main.py
 ```
+
 ## Upcoming Features
 
 - **Proxy Speed Testing**: To test each generated proxy after validation to further thin out the most reliable generated proxies. 
