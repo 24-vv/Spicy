@@ -14,7 +14,7 @@ Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](ht
 
 - **User Friendly Interface**: An easy to user interface that is straightforward and self explanatory.
 
-- **Tool Theme Changing**: Added simple visual enhancements, one of them allows users to change the color of the tool within the settings command.
+- **Theme Changing**: Added simple visual enhancements, one of them allows users to change the color of the tool within the settings command.
 
 - **Saves**: Added saves, this feature will save your settings to your ``settings.json`` file everytime the user returns back to the main menu.
 
@@ -28,14 +28,8 @@ Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](ht
 
 ## Screenshot
 
-<<<<<<< HEAD
 <p align="center">
   <img src="images/v1.1.PNG" alt="Logo">
-=======
-
-<p align="center">
-  <img src="images/spicy-screenshot.PNG" alt="Logo">
->>>>>>> d443b657ae3b8ab3048826a5e9b187eb91df635d
 </p>
 </p>
 
@@ -66,6 +60,7 @@ python -m pip install -r requirements.txt
 ```sh
 python main.py
 ```
+
 ## Upcoming Features
 
 - **Proxy Speed Testing**: To test each generated proxy after validation to further thin out the most reliable generated proxies. 
@@ -74,10 +69,4 @@ python main.py
 
 - **Proxy Type Support**: Eventually I am planning on adding support for SOCKS5 and HTTPS. 
 
-<<<<<<< HEAD
 - **GUI Version**: Might add a GUI version of the tool for people who prefer a vi over a cli.
-=======
-- **Scheduled Tasks**: Allows users to re-validate their proxies over a set interval or replace existing proxies.
-
-- **GUI Version**: Might add a GUI version of the tool for people who prefer a vi over a cli.
->>>>>>> d443b657ae3b8ab3048826a5e9b187eb91df635d
