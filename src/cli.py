@@ -37,7 +37,7 @@ def display_ascii_art():
     print(r" \____/| .__/|_|\___|\__, |      |")
     print(r"       | |            __/ |      |")
     print(r"       |_|           |___/ v1.1  |")
-    print(r"                                 |  Made with ♥ by .24vv")
+    print(r"                                 |  Made with ♥ by .24vv and .next")
     print("\033[0m")
 
 def clear_console():
