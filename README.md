@@ -1,74 +1,26 @@
-# Spicy
+# Spicy v1.2
 
-Spicy is a simple proxy generator & validator utilizing the [Proxyscrape API](https://docs.proxyscrape.com/)!
+### Core Features:
 
-## Core Features
+1. **Proxy Generation:**
+   - Generate HTTP, HTTPS, and SOCKS5 proxies.
+   - Specify the number of proxies to generate (1-9999)
 
-- **Proxy Generation**: Allows users to generate a specified number of proxies using the ``generate_proxies`` function.
+2. **Proxy Validation:**
+   - Validate proxies asynchronously for faster processing.
+   - Automatically delete invalid proxies from the output file.
 
-- **Proxy Validation**: Allows users to validate individual proxies or validate all proxies stored in the ``output.txt`` file.
+3. **Settings Management:**
+   - Enable or disable auto store for generated proxies.
+   - Change theme color.
+   - Change proxy type (HTTP, HTTPS, SOCKS5).
+   - Save and load settings to/from the settings file.
 
-- **Auto Deletion**: Automatically removes invalid proxies from the ``output.txt`` file after validation.
+4. **User Interface:**
+   - Clear and re-display console after operations to keep it clean.
+   - Display ASCII art and themed messages.
+   - Open the output file in Notepad from the main menu.
 
-**Note**: The following features require ``auto_store`` to be enabled:
+### Installation:
 
-- **Auto Deletion**
-
-- **Validating mass proxies from the ``output.txt`` file.**
-
-- **Saving generated proxies to the ``output.txt`` file.**
-
-## Support Proxy Types
-
-- HTTP
-
-- HTTPS
-
-- SOCKS5 **(Read Disclamer Below)**
-
-**Disclamer**: SOCKS5 proxy generation is a hit or miss, sometimes it will generate it's respective proxies and sometimes it will not. This most likely happens due to the availability of the SOCKS5 proxies from the source they are being fetched from.
-
-That being said the HTTP and HTTPS proxies fetch fine.
-
-## Screenshot
-
-<p align="center">
-  <img src="images/v1.2.PNG" alt="Logo">
-</p>
-</p>
-
-## Installation 
-
-**Note**: You can either follow the installation process below or head to the [release](https://github.com/24-vv/Spicy/releases) page and download the latest zip.
-
-1. **Clone the repo**
-
-```sh
-git clone https://github.com/24-vv/Spicy.git
-```
-
-2. **CD into the cloned repo**
-
-```sh
-cd Spicy
-```
-
-3. **Install necessary dependencies**
-
-```sh
-python -m pip install -r requirements.txt
-```
-
-4. **Run the tool**
-
-```sh
-python main.py
-```
-
-## Upcoming Features
-
-- **Proxy Speed Testing**: To test each generated proxy after validation to further thin out the most reliable generated proxies. 
-
-- **Proxy Anonymity Levels**: Gives users further customization over their generated proxies.
-
-- **GUI Version**: Might add a GUI version of the tool for people who prefer a vi over a cli.
+Please head over to the latest [release](https://github.com/24-vv/Spicy/releases) and download the .zip file from it, make sure you extract it. From there you need to install the correct dependencies, this is simple all you need to do is ``cd`` into the extracted folder and run ``-m pip install -r requirements``. You can also open the folder, click on the path, press ``CTRL + A`` and then type ``cmd``. This will open the cmd prompt within that path saving you the time of running the ``cd`` cmd. 
