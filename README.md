@@ -23,4 +23,4 @@
 
 ### Installation:
 
-Please head over to the latest [release](https://github.com/24-vv/Spicy/releases) and download the .zip file from it, make sure you extract it. From there you need to install the correct dependencies, this is simple all you need to do is ``cd`` into the extracted folder and run ``-m pip install -r requirements``. You can also open the folder, click on the path, press ``CTRL + A`` and then type ``cmd``. This will open the cmd prompt within that path saving you the time of running the ``cd`` cmd. 
+Please head over to the latest [release](https://github.com/24-vv/Spicy/releases) and download the .zip file from it, make sure you extract it. From there you need to install the correct dependencies, this is simple all you need to do is ``cd`` into the extracted folder and run ``pip install -r requirements``. You can also open the folder, click on the path, press ``CTRL + A`` and then type ``cmd``. This will open the cmd prompt within that path saving you the time of running the ``cd`` cmd. 
